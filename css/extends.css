@@ -1,8 +1,8 @@
-@import 'css/variables.css';
-@import 'css/globals.css';
-@import 'css/Components/navbar.css';
-@import 'css/Components/header.css';
-@import 'css/Components/about.css';
-@import 'css/Components/skills.css';
-@import 'css/Components/projects.css';
-@import 'css/Components/footer.css';
+@import './variables.css';
+@import './globals.css';
+@import './Components/navbar.css';
+@import './Components/header.css';
+@import './Components/about.css';
+@import './Components/skills.css';
+@import './Components/projects.css';
+@import './Components/footer.css';
