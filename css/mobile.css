@@ -1,0 +1,48 @@
+/* mobile.css */
+
+/* Reset de margens e preenchimentos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ajuste do tamanho da fonte base para dispositivos móveis */
+html {
+  font-size: 50%;
+}
+
+/* Margem superior ajustada para melhor visualização em dispositivos móveis */
+body {
+  font-size: 1.6rem;
+  margin-top: 5rem;
+}
+
+/* Ajuste de estilos específicos para telas menores */
+@media only screen and (max-width: 768px) {
+  /* Ajuste do tamanho da fonte para telas menores */
+  html {
+    font-size: 48%;
+  }
+
+  /* Ajuste do padding para a classe max-width em telas menores */
+  .max-width {
+    padding: 0 2rem;
+  }
+
+  /* Ajuste do tamanho da fonte para o cabeçalho em telas menores */
+  h1 {
+    font-size: 4.2rem;
+  }
+
+  /* Ajuste opcional da margem superior para o corpo em telas menores */
+  body {
+    margin-top: 8rem;
+  }
+
+  /* Adicione mais ajustes específicos para telas menores, se necessário */
+}
+
+header {
+  flex-direction: column;
+}
